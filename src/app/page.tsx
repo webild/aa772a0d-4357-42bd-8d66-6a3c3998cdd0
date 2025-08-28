@@ -2,7 +2,6 @@
 import { SiteThemeProvider } from '@/components/sections/ThemeProvider';
 import ContentTextbox from '@/components/textbox/ContentTextbox';
 import SimpleHero from '@/components/sections/layouts/hero/SimpleHero';
-import SimpleKPIBento from '@/components/bento/SimpleKPIBento';
 import BentoFAQ from '@/components/sections/layouts/faq/BentoFAQ';
 import Bento from '@/components/bento/Bento';
 import SimpleFloatingNavbar from '@/components/navigation/SimpleFloatingNavbar';
@@ -27,7 +26,7 @@ const ServicesSection = () => {
 };
 
 const TermsSection = () => {
-  return <ContentTextbox title={<h2>Terms &amp; Conditions</h2>} description={<p>Here's a brief overview of our terms and policies.</p>} />;
+  return <ContentTextbox title={<h2>Terms & Conditions</h2>} description={<p>Here's a brief overview of our terms and policies.</p>} />;
 };
 
 const PrivacySection = () => {
