@@ -1,6 +1,4 @@
 "use client";
-import Image from 'next/image';
-import Link from 'next/link';
 import { SiteThemeProvider } from '@/components/sections/ThemeProvider';
 import ContentTextbox from '@/components/textbox/ContentTextbox';
 import SimpleHero from '@/components/sections/layouts/hero/SimpleHero';
@@ -11,9 +9,9 @@ import SimpleFloatingNavbar from '@/components/navigation/SimpleFloatingNavbar';
 import { ArrowRight } from 'lucide-react';
 
 const services = [
-  { title: 'Service 1', description: 'Quick description about service 1', icon: <ArrowRight /> },
-  { title: 'Service 2', description: 'Quick description about service 2', icon: <ArrowRight /> },
-  { title: 'Service 3', description: 'Quick description about service 3', icon: <ArrowRight /> },
+  { title: 'Service 1', description: 'Quick description about service 1' },
+  { title: 'Service 2', description: 'Quick description about service 2' },
+  { title: 'Service 3', description: 'Quick description about service 3' },
 ];
 
 const HeroSection = () => {
@@ -29,7 +27,7 @@ const ServicesSection = () => {
 };
 
 const TermsSection = () => {
-  return <ContentTextbox title={<h2>Terms & Conditions</h2>} description={<p>Here's a brief overview of our terms and policies.</p>} />;
+  return <ContentTextbox title={<h2>Terms &amp; Conditions</h2>} description={<p>Here's a brief overview of our terms and policies.</p>} />;
 };
 
 const PrivacySection = () => {
